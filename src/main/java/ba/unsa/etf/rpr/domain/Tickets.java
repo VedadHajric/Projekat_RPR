@@ -9,8 +9,8 @@ public class Tickets {
     private int ticket_id;
     private Date kick_off;
     private int number_of_people;
-    private int match_id;
-    private int person_id;
+    private Matches match_id;
+    private User person_id;
 
     public int getTicket_id() {
         return ticket_id;
@@ -20,11 +20,11 @@ public class Tickets {
         this.ticket_id = ticket_id;
     }
 
-    public int getMatch_id() {
+    public Matches getMatch_id() {
         return match_id;
     }
 
-    public void setMatch_id(int match_id) {
+    public void setMatch_id(Matches match_id) {
         this.match_id = match_id;
     }
 
@@ -44,11 +44,11 @@ public class Tickets {
         this.number_of_people = number_of_people;
     }
 
-    public int getPerson_id() {
+    public User getPerson_id() {
         return person_id;
     }
 
-    public void setPerson_id(int person_id) {
+    public void setPerson_id(User person_id) {
         this.person_id = person_id;
     }
 
